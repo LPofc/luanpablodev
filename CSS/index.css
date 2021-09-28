@@ -2,7 +2,6 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: #1A1A1A;
-    border-bottom: 5px solid #565759;
     padding: 10px 20px;
 }
 
@@ -28,16 +27,17 @@ a {
     margin-right: 30px;
 }
 
-a::before{
+a::before {
     content: "";
     background-color: #ffdf65;
     width: 10px;
     height: 10px;
     margin-right: 10px;
     vertical-align: middle;
+    border-radius: 12px;
 }
 
-#button{
+#button {
     display: inline-block;
     background-color: #E8E8DB;
     height: 60px;
@@ -48,6 +48,7 @@ a::before{
     margin-right: 0px;
     color: #427AA1;
     transition: transform 150ms cubic-bezier(.14,-0.79,0,2.64);
+    border-radius: 12px;
 }
 
 #button:hover {
@@ -55,4 +56,42 @@ a::before{
     opacity: 0.95;
     background-color: #ffdf65;
     box-shadow: 5px 5px 0px #E8E8DB;
+    border-radius: 12px;
+}
+
+#title {
+    font-family: "Francois One", sans-serif;
+    font-size: 80px;
+    align-items: absolute;
+    color: #FFD639;
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    left: 181px;
+    top: 238px;
+}
+#caption{
+    font-family: "Francois One", sans-serif;
+    color: #ffdf65;
+    position: absolute;
+    width: 900px;
+    height: 40px;
+    left: 85px;
+    top: 330px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 70px;
+    line-height: 80px;
+}
+#backgroundFrist{
+    position: absolute;
+    width: 627px;
+    height: 184px;
+    left: 60px;
+    top: 290px;
+    filter: drop-shadow(10px 10px 0px#FFD639);
+    backdrop-filter: blur(8px) saturate(170%);
+    -webkit-backdrop-filter: blur(8px) saturate(170%);
+    background-color: rgba(17, 25, 40, 0.493);
+    border-radius: 12px;
 }
