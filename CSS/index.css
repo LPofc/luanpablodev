@@ -70,25 +70,3 @@ a::before {
     box-shadow: 5px 5px 0px #E8E8DB;
     border-radius: 12px;
 }
-
-#backgroundTitle{
-    position: absolute;
-    width: 627px;
-    height: 184px;
-    left: 60px;
-    top: 290px;
-    filter: drop-shadow(10px 10px 0px#FFD639);
-    backdrop-filter: blur(8px) saturate(170%);
-    -webkit-backdrop-filter: blur(8px) saturate(170%);
-    background-color: rgba(17, 25, 40, 0.493);
-    border-radius: 12px;
-    overflow: hidden;
-    -webkit-transition: all 0.7s ease;
-    transition: all 0.7s ease;
-    -webkit-transform: scale(1)
-    transform: scale(1)
-}
-#backgroundTitle:hover{
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-}
